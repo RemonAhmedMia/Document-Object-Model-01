@@ -34,3 +34,12 @@ console.log(nestedFriend.innerText); // Alice
 
 // যদি শুধু একটি element দরকার → querySelector()
 // যদি সব matching element দরকার → querySelectorAll()
+
+
+// Style Attribute=============
+
+const headingOne = document.getElementById("heading").style.backgroundColor = "red";
+heading.style.color = "white";
+heading.style.padding = "20px";
+heading.style.textAlign = "center"
+console.log(headingOne);
